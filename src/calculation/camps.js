@@ -1,4 +1,4 @@
-[
+export const camps = [
     {
     "address": "Mahaveer Pratishthan, Salisbury Park, Pune",
     "pinCode": "411037",
@@ -11,7 +11,7 @@
         "Rotaract Club of Bibwewadi Pune"
     ],
     "lat":18.4938378,
-    "long":73.8715033
+    "lng":73.8715033
 },
     {
     "address": "Southern Command, Solapur - Pune Hwy, near Race Course, Wanowrie, Pune, Maharashtra",
@@ -25,7 +25,7 @@
             "Rotaract Club of Pune Pioneers"
         ],
     "lat":18.4848031,
-        "long":73.9022655
+        "lng":73.9022655
 },
     {
         "address": " Janakalyan Raktpedi, Swargate",
@@ -39,7 +39,7 @@
             "Rac. Pune Karvenagar "
         ],
         "lat":18.5018322,
-        "long":73.8635912
+        "lng":73.8635912
 },
     {
         "address": "Sinhagad academy of engineering kondhwa",
@@ -51,7 +51,7 @@
             "Rotaract club of SAOE"
         ],
         "lat":0,
-        "long":0
+        "lng":0
 },
     {
         "address": "JSPM's Rajarshi Shahu College of Engineering",
@@ -63,7 +63,7 @@
             "Rotaract Club of RSCOE"
         ],
         "lat":18.6197209,
-        "long":73.7498939
+        "lng":73.7498939
 },
     {
         "address": "Janakalyan Raktpedi, Swarget",
@@ -77,7 +77,7 @@
             "RaC Pune Pristine Paradise"
         ],
         "lat":-6.255369300000001,
-        "long":106.7978237
+        "lng":106.7978237
 },
     {
         "address": "Rotary Club of Pimpri, Sambhaji Nagar, Pimpri Chinchwad, Pune, Maharashtra 411018",
@@ -89,7 +89,7 @@
             "Rotaract Club of Pimpri"
         ],
         "lat":18.6239079,
-        "long":73.8124984
+        "lng":73.8124984
 },
     {
         "address": "L-Axis, Spine Rd, PCNTDA, Sector No. 6, Moshi, Pimpri-Chinchwad, Maharashtra 412105",
@@ -101,7 +101,7 @@
             "Rotaract Club of Pimpri"
         ],
         "lat":18.6484588,
-        "long":73.8428989
+        "lng":73.8428989
 },
     {
         "address": "Felicity, Sr.no.86, Ravet Central St, Ravet, Pimpri-Chinchwad, Maharashtra 412101",
@@ -113,7 +113,7 @@
             "Rotaract Club of Pimpri"
         ],
         "lat":18.6606495,
-        "long":73.73215850000001
+        "lng":73.73215850000001
 },
     {
         "address": "Vaanya, Block-1, Woodsville Phase 3, Bankar Vasti, Moshi, Pimpri-Chinchwad, Maharashtra 412105",
@@ -125,7 +125,7 @@
             "Rotaract Club of Pimpri"
         ],
         "lat":18.670091,
-        "long":73.84832999999999
+        "lng":73.84832999999999
 },
     {
         "address": "Puneville, NH4, Pune Mumbai Highway Punawale, 17/19, Pandhare Wasti Rd, Near Balaji Temple, Kate Wasti, Tathawade, Dattwadi, Maharashtra 411033",
@@ -137,7 +137,7 @@
             "Rotaract club of Pimpri"
         ],
         "lat":18.6232077,
-        "long":73.7368019
+        "lng":73.7368019
 },
     {
         "address": "Vaarivana, Gat No. 109, 111, 123 & 291, 292 Adhe & Urse, Ambewadi, Sable Farm, Maharashtra 410506",
@@ -149,7 +149,7 @@
             "Rotaract club of Pimpri"
         ],
         "lat":0,
-        "long":0
+        "lng":0
 },
     {
         "address": "Mahaveer prathisthan",
@@ -162,7 +162,7 @@
             "Rotaract club of  renaissance"
         ],
         "lat":18.4938378,
-        "long":73.8715033
+        "lng":73.8715033
 },
     {
         "address": "Dr. D. Y. Patil Institute of Management and Research, Pimpri, Pune",
@@ -176,7 +176,7 @@
             "Rotaract Club of DPU"
         ],
         "lat":18.6117719,
-        "long":73.748751
+        "lng":73.748751
 },
     {
         "address": " Pune - Satara Rd, Bharati Vidyapeeth Campus, Dhankawadi, Pune, Maharashtra 411043",
@@ -188,7 +188,7 @@
             "Rotaract Club of Pune Cantonment"
         ],
         "lat":18.4654546,
-        "long":73.85468209999999
+        "lng":73.85468209999999
 },
     {
         "address": "Good Health Hospital, near Kambe, Rees, Khalapur, Raigad 410222",
@@ -200,7 +200,7 @@
             "Rotaract Club of Patalganga"
         ],
         "lat":18.8305523,
-        "long":73.2846445
+        "lng":73.2846445
 },
     {
         "address": "Janakalyan Raktapeti, swargate",
@@ -214,7 +214,7 @@
             "Rotaract club of Pune Karvenagar"
         ],
         "lat":18.5009187,
-        "long":73.8575327
+        "lng":73.8575327
 },
     {
         "address": "Joggers park, kalyaninagar ",
@@ -226,7 +226,7 @@
             "Rotaract club of pune kalyaninagar "
         ],
         "lat":18.5489902,
-        "long":73.9029138
+        "lng":73.9029138
 },
     {
         "address": "Mahaveer Pratishtan, Salisbury Park, Pune",
@@ -240,7 +240,7 @@
             "RC Royal Legacy"
         ],
         "lat":18.4938378,
-        "long":73.8715033
+        "lng":73.8715033
 },
     {
         "address": "Gurunanak medical foundation (Hollywood Gurudwara ) near Bishops school camp pune 411001",
@@ -254,7 +254,7 @@
             "Rotaract club of pune Camp next gen"
         ],
         "lat":0,
-        "long":0
+        "lng":0
 },
     {
         "address": "Gurunanak Medical Foundation",
@@ -268,7 +268,7 @@
             "Rotaract Club of Pune Camp Pioneers"
         ],
         "lat":18.5902559,
-        "long":73.9267824
+        "lng":73.9267824
 },
     {
         "address": "Saishree Hospital,  Aundh",
@@ -282,7 +282,7 @@
             "Rotaract club of Aundh Magnus"
         ],
         "lat":18.5601573,
-        "long":73.8052354
+        "lng":73.8052354
 },
     {
         "address": "Navi peth",
@@ -294,7 +294,7 @@
             "Rotaract Club of Pune Salisbury Park "
         ],
         "lat":18.506821,
-        "long":73.840436
+        "lng":73.840436
 },
     {
         "address": "S.No. 31/1/1, Plot No.228, B.No. 698 PatilPlaza, Mungale Anna Nagar, opp. Suyog Hospital, Dhankawadi, Pune, Maharashtra 411043- location I want it before 1",
@@ -308,7 +308,7 @@
             "."
         ],
         "lat":11.6990807,
-        "long":124.4558689
+        "lng":124.4558689
 },
     {
         "address": "MITCON institute of management ",
@@ -322,7 +322,7 @@
             "Rotaract club of DYPMIER "
         ],
         "lat":18.5755453,
-        "long":73.765909
+        "lng":73.765909
 },
     {
         "address": "Deccan",
@@ -336,7 +336,7 @@
             "RaC Aundh "
         ],
         "lat":14,
-        "long":77
+        "lng":77
 },
     {
         "address": "Indira College of commerce and science, Tathawade",
@@ -348,7 +348,7 @@
             "Rotaract club of Indira College, Tathawade"
         ],
         "lat":18.6096331,
-        "long":73.7459964
+        "lng":73.7459964
 },
     {
         "address": "Mitcon Institute of Technology ",
@@ -362,7 +362,7 @@
             "Rotaract Club Of Pune City"
         ],
         "lat":18.5755453,
-        "long":73.765909
+        "lng":73.765909
 },
     {
         "address": "1003, Saras Baug Rd, near Hotel Natraj, Dadawadi, Shukrawar Peth, Pune, Maharashtra 411002",
@@ -376,7 +376,7 @@
             "Rotaract Club of Pune Karvenagar"
         ],
         "lat":18.5016866,
-        "long":73.85587360000001
+        "lng":73.85587360000001
 },
     {
         "address": "Mitcon Institute of management Balewadi",
@@ -390,7 +390,7 @@
             "Rotatact club of DYPIMER"
         ],
         "lat":18.5755453,
-        "long":73.765909
+        "lng":73.765909
 },
     {
         "address": "Lohana Hall, Khopoli.",
@@ -402,7 +402,7 @@
             "Rotaract club of Khopoli"
         ],
         "lat":18.786824,
-        "long":73.3470681
+        "lng":73.3470681
 },
     {
         "address": "Bhate Vachnalay, Doha",
@@ -414,7 +414,7 @@
             "Rotaract Club of Roha Central "
         ],
         "lat":25.2854473,
-        "long":51.53103979999999
+        "lng":51.53103979999999
 },
     {
         "address": "Srushti Society, GuruGaneshnagar, Kothrud, Pune 38",
@@ -427,7 +427,7 @@
             "Rotaract Club of Pune Zenith"
         ],
         "lat":18.5054493,
-        "long":73.7999987
+        "lng":73.7999987
 },
     {
         "address": "Rotary community centre,Sector 19, Besides St George's Church, New Panvel, Plot No 18, New Panvel Flyover, Panvel, Navi Mumbai, Maharashtra 410206",
@@ -441,7 +441,7 @@
             "Rotaract club of Panvel Horizon"
         ],
         "lat":0,
-        "long":0
+        "lng":0
 },
     {
         "address": "Mahatma Phulr Sanskrutik Bhavan, Wanowarie",
@@ -453,7 +453,7 @@
             "Rotaract Club of Pune Sunrise"
         ],
         "lat":18.4975989,
-        "long":73.8999656
+        "lng":73.8999656
 },
     {
         "address": " CKT College Khanda Colony  ",
@@ -466,7 +466,7 @@
             "Rotaract club of Panvel industrial town"
         ],
         "lat":18.9993007,
-        "long":73.1132546
+        "lng":73.1132546
 },
     {
         "address": "Sinhagad Academy of Engineering kondhwa",

@@ -1,22 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng,
 } from "react-places-autocomplete";
 
-export default function Input() {
-  const [address, setAddress] = React.useState("");
-  const [coordinates, setCoordinates] = React.useState({
-    lat: null,
-    lng: null,
-  });
+export default function Autocomplete({setCoordinates}) {
+  const [address, setAddress] = useState("");
 
-  const handleSelect = async (value) => {
-    const results = await geocodeByAddress(value);
-    const latLng = await getLatLng(results[0]);
-    setAddress(value);
+  async function handleSelect(value) {
+    let results = await geocodeByAddress(value);
+    let latLng = await getLatLng(results[0]);
     setCoordinates(latLng);
-  };
+  }
+
 
   return (
     <PlacesAutocomplete
@@ -26,9 +22,6 @@ export default function Input() {
     >
       {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
         <div>
-          <p>Latitude: {coordinates.lat}</p>
-          <p>Longitude: {coordinates.lng}</p>
-
           <input {...getInputProps({ placeholder: "Type address" })} />
 
           <div>

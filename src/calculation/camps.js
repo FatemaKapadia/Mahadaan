@@ -42,18 +42,6 @@ export const camps = [
         "lng":73.8635912
 },
     {
-        "address": "Sinhagad academy of engineering kondhwa",
-        "pinCode": "411006",
-        "number": "7666073798",
-        "startTime": "9:00:00 AM",
-        "endTime": "4:00:00 PM",
-        "clubs": [
-            "Rotaract club of SAOE"
-        ],
-        "lat":0,
-        "lng":0
-},
-    {
         "address": "JSPM's Rajarshi Shahu College of Engineering",
         "pinCode": "411033",
         "number": "7447809400",
@@ -76,8 +64,8 @@ export const camps = [
             "RaC Pune Pristine",
             "RaC Pune Pristine Paradise"
         ],
-        "lat":-6.255369300000001,
-        "lng":106.7978237
+        "lat":18.500919,
+        "lng":73.857533
 },
     {
         "address": "Rotary Club of Pimpri, Sambhaji Nagar, Pimpri Chinchwad, Pune, Maharashtra 411018",
@@ -148,8 +136,8 @@ export const camps = [
         "clubs": [
             "Rotaract club of Pimpri"
         ],
-        "lat":0,
-        "lng":0
+        "lat":18.714249,
+        "lng":73.637787
 },
     {
         "address": "Mahaveer prathisthan",
@@ -253,22 +241,8 @@ export const camps = [
             "Rotaract club of Pune Cantonment ",
             "Rotaract club of pune Camp next gen"
         ],
-        "lat":0,
-        "lng":0
-},
-    {
-        "address": "Gurunanak Medical Foundation",
-        "pinCode": "411001",
-        "number": "8308742999",
-        "startTime": "2:00:00 PM",
-        "endTime": "5:00:00 PM",
-        "clubs": [
-            "Rotaract Club of Pune Camp Next Gen",
-            "Rotaract Club of Pune Cantonment",
-            "Rotaract Club of Pune Camp Pioneers"
-        ],
-        "lat":18.5902559,
-        "lng":73.9267824
+        "lat":18.512616,
+        "lng":73.88578
 },
     {
         "address": "Saishree Hospital,  Aundh",
@@ -297,7 +271,7 @@ export const camps = [
         "lng":73.840436
 },
     {
-        "address": "S.No. 31/1/1, Plot No.228, B.No. 698 PatilPlaza, Mungale Anna Nagar, opp. Suyog Hospital, Dhankawadi, Pune, Maharashtra 411043- location I want it before 1",
+        "address": "S.No. 31/1/1, Plot No.228, B.No. 698 PatilPlaza, Mungale Anna Nagar, opp. Suyog Hospital, Dhankawadi, Pune, Maharashtra 411043",
         "pinCode": "411043",
         "number": "9011963300",
         "startTime": "9:00:00 AM",
@@ -307,8 +281,8 @@ export const camps = [
             "Rotaract Club of Bharatvarsh",
             "."
         ],
-        "lat":11.6990807,
-        "lng":124.4558689
+        "lat":18.468301,
+        "lng":73.855575
 },
     {
         "address": "MITCON institute of management ",
@@ -413,8 +387,8 @@ export const camps = [
         "clubs": [
             "Rotaract Club of Roha Central "
         ],
-        "lat":25.2854473,
-        "lng":51.53103979999999
+        "lat":18.437464,
+        "lng":73.117232
 },
     {
         "address": "Srushti Society, GuruGaneshnagar, Kothrud, Pune 38",
@@ -440,8 +414,8 @@ export const camps = [
             "Rotaract club panvel Industrial town",
             "Rotaract club of Panvel Horizon"
         ],
-        "lat":0,
-        "lng":0
+        "lat":18.995831,
+        "lng":73.117939
 },
     {
         "address": "Mahatma Phulr Sanskrutik Bhavan, Wanowarie",
@@ -479,45 +453,5 @@ export const camps = [
         ],
         "lat": 18.442775,
         "lng": 73.8955786
-},
-    {
-        "address": "Vaarivana, Gat No. 109, 111, 123 & 291, 292 Adhe & Urse, Ambewadi, Sable Farm, Maharashtra 410506",
-        "pinCode": "410506",
-        "number": "7666800739",
-        "startTime": "2:00:00 PM",
-        "endTime": "8:00:00 PM",
-        "clubs": [
-            "Rotaract club of Pimpri"
-        ],
-        "lat": 18.714249,
-        "lng": 73.6377874
-},
-    {
-        "address": "Gurunanak medical foundation (Hollywood Gurudwara ) near Bishops school camp pune 411001",
-        "pinCode": "411001",
-        "number": "8308742999",
-        "startTime": "2:00:00 PM",
-        "endTime": "5:00:00 PM",
-        "clubs": [
-            "Rotaract Club Of Pune Camp Pioneers ",
-            "Rotaract club of Pune Cantonment ",
-            "Rotaract club of pune Camp next gen"
-        ],
-        "lat": 18.5126156,
-        "lng": 73.8857803
-},
-    {
-        "address": "Rotary community centre,Sector 19, Besides St George's Church, New Panvel, Plot No 18, New Panvel Flyover, Panvel, Navi Mumbai, Maharashtra 410206",
-        "pinCode": "410206",
-        "number": "9112279000",
-        "startTime": "9:00:00 AM",
-        "endTime": "3:00:00 PM",
-        "clubs": [
-            "Rotaract club of Panvel Central",
-            "Rotaract club panvel Industrial town",
-            "Rotaract club of Panvel Horizon"
-        ],
-        "lat": 19.0191972,
-        "lng": 73.0871892
 }
 ]

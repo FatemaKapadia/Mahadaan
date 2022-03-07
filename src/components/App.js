@@ -3,7 +3,7 @@ import Landing from "./Landing";
 import {calculate} from '../calculation/calcDistance';
 
 export default function App() {
-  const [coordinates, setCoordinates] = useState({ lat: null, lng: null });
+  const [coordinates, setCoordinates] = useState({ lat: null, lng: null }); 
 
   function enterCoordinates(val) {
     setCoordinates(val);
@@ -14,7 +14,7 @@ export default function App() {
     if(coordinates['lat'] && coordinates['lng']){
       // console.log(coordinates['lat']);
       // console.log(coordinates['lng']);
-      // calculate(coordinates)
+      calculate(coordinates)
     }
 
    },[coordinates])

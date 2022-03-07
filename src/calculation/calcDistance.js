@@ -1,39 +1,54 @@
 import { camps } from "./camps.js";
-import { google } from 'google-maps';
-
-const URL = "https://maps.googleapis.com/maps/api/distancematrix/json";
-const ORIGINS = "?origins=";
-const DESTINATIONS = "?destinations=";
-const KEY = "&key=";
 
 export function calculate(coordinates) {
-  const service = new google.maps.DistanceMatrixService();
-  const origin1 = { lat: 55.93, lng: -3.118 };
-  const destinationA = { lat: 50.087, lng: 14.421 };
-  const request = {
-    origins: [origin1],
-    destinations: [destinationA],
-  };
+  const originCoordinates = coordinates["lat"] + "%2C" + coordinates["lng"];
 
-  service.getDistanceMatrix(request).then((response) => {
-    // put response
-    console.log(JSON.stringify(response, null, 2));
-  });
+  let distances = [];
+
+  camps.forEach(calcDist);
+
+  function calcDist(value, index, camps) {
+    const destinationCoordinates = value["lat"] + "%2C" + value["lng"];
+    var axios = require("axios");
+
+    var config = {
+      method: "get",
+      url: `https://s9ypn1qxaj.execute-api.ap-south-1.amazonaws.com/testing/getDistance?origin=${originCoordinates}&destination=${destinationCoordinates}`,
+    };
+
+    axios(config)
+      .then(function (response) {
+        response = response.data;
+        // console.log(response);
+        if (response["rows"][0]["elements"][0]["distance"]) {
+          const distance =
+            response["rows"][0]["elements"][0]["distance"]["value"];
+          const distInWords =
+            response["rows"][0]["elements"][0]["distance"]["text"];
+          let curr = {};
+          curr["distance"] = distance;
+          curr["index"] = index;
+          curr["distInWords"] = distInWords;
+          distances.push(curr);
+        } else {
+          console.log(value["address"] + " is giving an error");
+        }
+
+        function compare( a, b ) {
+          if ( a.distance < b.distance ){
+            return -1;
+          }
+          else if(a.distance > b.distance) {
+            return 1;
+          } else {
+            return 0;
+          }
+        }
+      
+        distances.sort(compare);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  }
 }
-//     const originCoordinates = coordinates['lat'] + '%2C' + coordinates['lng'];
-//     const destinationCoordinates = '0.0' + '%2C' + '0.0';
-//   var axios = require("axios");
-
-//   var config = {
-//     method: "get",
-//     url: URL + ORIGINS + originCoordinates + DESTINATIONS + destinationCoordinates+KEY + process.env.REACT_APP_API_KEY,
-//     headers: {},
-//   };
-
-//   axios(config)
-//     .then(function (response) {
-//       console.log(JSON.stringify(response.data));
-//     })
-//     .catch(function (error) {
-//       console.log(error);
-//     });

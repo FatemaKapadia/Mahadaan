@@ -5,8 +5,7 @@ export async function calculate(coordinates) {
 
   let distances = [];
 
-  for (const ind in camps) {
-    const value = camps[ind]
+  await Promise.all(camps.map(async (value) => {
     const destinationCoordinates = value["lat"] + "%2C" + value["lng"];
     var axios = require("axios");
 
@@ -35,7 +34,7 @@ export async function calculate(coordinates) {
       .catch(function (error) {
         console.log(error);
       })
-  }
+  }));
   
   distances.sort((a, b)=>{
     if(a.distance>b.distance)

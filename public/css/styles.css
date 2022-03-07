@@ -11301,6 +11301,7 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  height: 100%;
 }
 header.masthead:before {
   content: "";

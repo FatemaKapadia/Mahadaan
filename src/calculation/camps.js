@@ -140,19 +140,6 @@ export const camps = [
         "lng":73.637787
 },
     {
-        "address": "Mahaveer prathisthan",
-        "pinCode": "411037",
-        "number": "9168982255",
-        "startTime": "",
-        "endTime": "",
-        "clubs": [
-            "Rotaract club of koregaon park",
-            "Rotaract club of  renaissance"
-        ],
-        "lat":18.4938378,
-        "lng":73.8715033
-},
-    {
         "address": "Dr. D. Y. Patil Institute of Management and Research, Pimpri, Pune",
         "pinCode": "411012",
         "number": "9405822061",

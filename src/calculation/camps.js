@@ -2,16 +2,19 @@ export const camps = [
   {
     address: "Mahaveer Pratishthan, Salisbury Park, Pune",
     pinCode: "411037",
-    number: "7057333740",
+    number: "7057333740, 9145304001, 9168982255",
     startTime: "10:00 AM",
     endTime: "3:00 PM",
     clubs: [
       "Rotaract Club of Pune Renaissance ",
       "Rotaract Club of Magarpatta Trendsetters",
       "Rotaract Club of Bibwewadi Pune",
+      "RC Royal Legacy",
+      "Rotaract Club of Koregaon Park",
     ],
     lat: 18.4938378,
     lng: 73.8715033,
+    date: "12/03/2022",
   },
   {
     address:
@@ -27,6 +30,7 @@ export const camps = [
     ],
     lat: 18.4848031,
     lng: 73.9022655,
+    date: "12/03/2022",
   },
   {
     address: " Janakalyan Raktpedi, Swargate",
@@ -41,16 +45,18 @@ export const camps = [
     ],
     lat: 18.5018322,
     lng: 73.8635912,
+    date: "12/03/2022",
   },
   {
-    address: "JS PM's Rajarshi Shahu College of Engineering",
+    address: "JSPM's Rajarshi Shahu College of Engineering",
     pinCode: "411033",
     number: "7447809400",
     startTime: "10:00 AM",
-    endTime: "4:00 AM",
+    endTime: "4:00 PM",
     clubs: ["Rotaract Club of RSCOE"],
     lat: 18.6197209,
     lng: 73.7498939,
+    date: "10/03/2022",
   },
   {
     address:
@@ -62,6 +68,7 @@ export const camps = [
     clubs: ["Rotaract Club of Pimpri"],
     lat: 18.6239079,
     lng: 73.8124984,
+    date: "12/03/2022",
   },
   {
     address:
@@ -73,6 +80,7 @@ export const camps = [
     clubs: ["Rotaract Club of Pimpri"],
     lat: 18.6484588,
     lng: 73.8428989,
+    date: "12/03/2022",
   },
   {
     address:
@@ -84,6 +92,7 @@ export const camps = [
     clubs: ["Rotaract Club of Pimpri"],
     lat: 18.6606495,
     lng: 73.73215850000001,
+    date: "12/03/2022",
   },
   {
     address:
@@ -95,6 +104,7 @@ export const camps = [
     clubs: ["Rotaract Club of Pimpri"],
     lat: 18.670091,
     lng: 73.84832999999999,
+    date: "12/03/2022",
   },
   {
     address:
@@ -106,6 +116,7 @@ export const camps = [
     clubs: ["Rotaract club of Pimpri"],
     lat: 18.6232077,
     lng: 73.7368019,
+    date: "12/03/2022",
   },
   {
     address:
@@ -117,25 +128,11 @@ export const camps = [
     clubs: ["Rotaract club of Pimpri"],
     lat: 18.714249,
     lng: 73.637787,
+    date: "12/03/2022",
   },
   {
     address:
-      "Dr. D. Y. Patil Institute of Management and Research, Pimpri, Pune",
-    pinCode: "411012",
-    number: "9405822061",
-    startTime: "11:00 AM",
-    endTime: "4:00 AM",
-    clubs: [
-      "Rotaract Club of Unitech",
-      "Rotaract Club of Modern College Ganeshkhind",
-      "Rotaract Club of DPU",
-    ],
-    lat: 18.6117719,
-    lng: 73.748751,
-  },
-  {
-    address:
-      " Pune - Satara Rd, Bharati Vidyapeeth C AMpus, Dhankawadi, Pune, Maharashtra 411043",
+      "Pathology Classroom, Ground Floor, Bharati Vidyapeeth Medical College, Dhankawadi, Pune, Maharashtra 411043",
     pinCode: "411043",
     number: "9405010103",
     startTime: "11:00 AM",
@@ -143,6 +140,7 @@ export const camps = [
     clubs: ["Rotaract Club of Pune Cantonment"],
     lat: 18.4654546,
     lng: 73.85468209999999,
+    date: "12/03/2022",
   },
   {
     address: "Good Health Hospital, near K AMbe, Rees, Khalapur, Raigad 410222",
@@ -153,6 +151,7 @@ export const camps = [
     clubs: ["Rotaract Club of Patalganga"],
     lat: 18.8305523,
     lng: 73.2846445,
+    date: "12/03/2022",
   },
   {
     address: "Joggers park, kalyaninagar ",
@@ -163,20 +162,7 @@ export const camps = [
     clubs: ["Rotaract club of pune kalyaninagar "],
     lat: 18.5489902,
     lng: 73.9029138,
-  },
-  {
-    address: "Mahaveer Pratishtan, Salisbury Park, Pune",
-    pinCode: "411037",
-    number: "9145304001",
-    startTime: "10:00 AM",
-    endTime: "3:00 AM",
-    clubs: [
-      "RC Pune Renaissance ",
-      "RC Magarpatta Trendsetters",
-      "RC Royal Legacy",
-    ],
-    lat: 18.4938378,
-    lng: 73.8715033,
+    date: "12/03/2022",
   },
   {
     address:
@@ -192,6 +178,7 @@ export const camps = [
     ],
     lat: 18.512616,
     lng: 73.88578,
+    date: "12/03/2022",
   },
   {
     address: "Saishree Hospital,  Aundh",
@@ -206,9 +193,10 @@ export const camps = [
     ],
     lat: 18.5601573,
     lng: 73.8052354,
+    date: "12/03/2022",
   },
   {
-    address: "Navi peth",
+    address: "AIMS Hospital, Navi peth",
     pinCode: "413304",
     number: "7020223015",
     startTime: "10:00 AM",
@@ -216,6 +204,7 @@ export const camps = [
     clubs: ["Rotaract Club of Pune Salisbury Park "],
     lat: 18.506821,
     lng: 73.840436,
+    date: "12/03/2022",
   },
   {
     address:
@@ -227,6 +216,7 @@ export const camps = [
     clubs: ["Rotract club of viit ", "Rotaract Club of Bharatvarsh", "."],
     lat: 18.468301,
     lng: 73.855575,
+    date: "12/03/2022",
   },
   {
     address: "Deccan",
@@ -237,6 +227,7 @@ export const camps = [
     clubs: ["RaC Pune Royal ", "RaC Pune City Fortune ", "RaC Aundh "],
     lat: 14,
     lng: 77,
+    date: "12/03/2022",
   },
   {
     address: "Indira College of commerce and science, Tathawade",
@@ -247,6 +238,7 @@ export const camps = [
     clubs: ["Rotaract club of Indira College, Tathawade"],
     lat: 18.6096331,
     lng: 73.7459964,
+    date: "12/03/2022",
   },
   {
     address:
@@ -262,6 +254,7 @@ export const camps = [
     ],
     lat: 18.5016866,
     lng: 73.85587360000001,
+    date: "12/03/2022",
   },
   {
     address: "Mitcon Institute of Management Balewadi",
@@ -276,6 +269,7 @@ export const camps = [
     ],
     lat: 18.5755453,
     lng: 73.765909,
+    date: "12/03/2022",
   },
   {
     address: "Lohana Hall, Khopoli.",
@@ -286,6 +280,7 @@ export const camps = [
     clubs: ["Rotaract club of Khopoli"],
     lat: 18.786824,
     lng: 73.3470681,
+    date: "12/03/2022",
   },
   {
     address: "Bhate Vachnalay, Doha",
@@ -296,6 +291,7 @@ export const camps = [
     clubs: ["Rotaract Club of Roha Central "],
     lat: 18.437464,
     lng: 73.117232,
+    date: "12/03/2022",
   },
   {
     address: "Srushti Society, GuruGaneshnagar, Kothrud, Pune 38",
@@ -306,6 +302,7 @@ export const camps = [
     clubs: ["Rotaract Club of Pune Heritage", "Rotaract Club of Pune Zenith"],
     lat: 18.5054493,
     lng: 73.7999987,
+    date: "12/03/2022",
   },
   {
     address:
@@ -321,16 +318,7 @@ export const camps = [
     ],
     lat: 18.995831,
     lng: 73.117939,
-  },
-  {
-    address: "Mahatma Phulr Sanskrutik Bhavan, Wanowarie",
-    pinCode: "411010",
-    number: "7350088798",
-    startTime: "",
-    endTime: "",
-    clubs: ["Rotaract Club of Pune Sunrise"],
-    lat: 18.4975989,
-    lng: 73.8999656,
+    date: "12/03/2022",
   },
   {
     address: " CKT College Khanda Colony  ",
@@ -344,6 +332,7 @@ export const camps = [
     ],
     lat: 18.9993007,
     lng: 73.1132546,
+    date: "12/03/2022",
   },
   {
     address: "Sinhagad Academy of Engineering kondhwa",
@@ -354,5 +343,83 @@ export const camps = [
     clubs: ["Rotaract club of SAOE"],
     lat: 18.442775,
     lng: 73.8955786,
+    date: "12/03/2022",
+  },
+  {
+    address: "Deenanath Mangeshkar Hospital, Erandwane",
+    pinCode: "411004",
+    number: "9657708711",
+    startTime: "9:00:00 AM",
+    endTime: "3:00:00 AM",
+    clubs: [
+      "Rotaract Club of Pune Mideast",
+      "Rotaract Club of Panache, Rotaract Club of Pune Sinhgad Road",
+      "Rotaract Club of Vibrants, Rotaract Club of GEM",
+    ],
+    lat: 18.5020467,
+    lng: 73.8322305,
+    date: "12/03/2022",
+  },
+  {
+    address: "LIBRARY OF D.Y.Patil Institute of Technology, Pimpri, Pune ",
+    pinCode: "411018",
+    number: "7719990883",
+    startTime: "9:00:00 AM",
+    endTime: "5:00:00 PM",
+    clubs: [
+      "Rotaract Club of Akurdi Phoenix ",
+      "Rotaract Club of D.Y. Patil Unitech Society ",
+    ],
+    lat: 18.6297811,
+    lng: 73.7997094,
+    date: "12/03/2022",
+  },
+  {
+    address: "Prarthnik shikshak society, karmayogi sabhagya, Indapur. ",
+    pinCode: "413106",
+    number: "9604714506",
+    startTime: "10:00:00 AM",
+    endTime: "5:00:00 PM",
+    clubs: ["Rotaract Club of Indreshwar"],
+    lat: 18.1186943,
+    lng: 75.0234074,
+    date: "11/03/2022",
+  },
+  {
+    address: "Apang Kalyankari Shikshan Sanstha",
+    pinCode: "411040",
+    number: "8856998600, 7350088798",
+    startTime: "10:00 AM",
+    endTime: "4:00 PM",
+    clubs: ["Rotaract Club of Pune Sunrise "],
+    lat: 18.4953904,
+    lng: 73.8998458,
+    date: "12/03/2022",
+  },
+  {
+    address: "Chatrapati Shivaji Maharaj Smarak , Khopoli",
+    pinCode: "410203",
+    number: "8983498543, 9763211039",
+    startTime: "10:00 AM",
+    endTime: "2:00 PM",
+    clubs: ["Rotaract Club Of Khopoli", "", "Mihir Vivek Butala"],
+    lat: 18.941726,    
+    lng: 72.79374,
+    date: "12/03/2022",
+  },
+  {
+    address: "PMC- Haribhau Sane Parking Lot",
+    pinCode: "411030",
+    number: "9405822061",
+    startTime: "11:00 AM",
+    endTime: "4:00 PM",
+    clubs: [
+      "Rotaract Club of Unitech",
+      "Rotaract Club of Modern College Ganeshkhind",
+      "Rotaract Club of DPU",
+    ],
+    lat: 18.5149209,
+    lng: 73.84829549999999,
+    date: "12/03/2022",
   },
 ];

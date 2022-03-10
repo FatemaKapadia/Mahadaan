@@ -166,15 +166,15 @@ export const camps = [
   },
   {
     address:
-      "Gurunanak medical foundation (Hollywood Gurudwara ) near Bishops school c AMp pune 411001",
+      "Gurunanak medical foundation (Hollywood Gurudwara ) near Bishops school camp pune 411001",
     pinCode: "411001",
     number: "8308742999",
-    startTime: "2:00 PM",
-    endTime: "5:00 PM",
+    startTime: "12:00 PM",
+    endTime: "4:00 PM",
     clubs: [
-      "Rotaract Club Of Pune C AMp Pioneers ",
-      "Rotaract club of Pune Cantonment ",
-      "Rotaract club of pune C AMp next gen",
+      "Rotaract Club Of Pune Camp Pioneers ",
+      "Rotaract Club of Pune Cantonment ",
+      "Rotaract Club of pune Camp next gen",
     ],
     lat: 18.512616,
     lng: 73.88578,

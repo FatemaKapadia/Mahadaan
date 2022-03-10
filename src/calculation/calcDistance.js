@@ -17,6 +17,7 @@ export async function calculate(coordinates) {
     await axios(config)
       .then(function (response) {
         response = response.data;
+        console.log(response);
         if (response["rows"][0]["elements"][0]["distance"]) {
           const distance =
             response["rows"][0]["elements"][0]["distance"]["value"];

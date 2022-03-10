@@ -4,7 +4,7 @@ import PlacesAutocomplete, {
   getLatLng,
 } from "react-places-autocomplete";
 
-export default function Autocomplete({setCoordinates}) {
+export default function Autocomplete({ setCoordinates }) {
   const [address, setAddress] = useState("");
 
   async function handleSelect(value) {
@@ -13,7 +13,6 @@ export default function Autocomplete({setCoordinates}) {
     setCoordinates(latLng);
   }
 
-
   return (
     <PlacesAutocomplete
       value={address}
@@ -21,15 +20,28 @@ export default function Autocomplete({setCoordinates}) {
       onSelect={handleSelect}
     >
       {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
-        <div>
-          <input {...getInputProps({ placeholder: "Type address" })} />
+        <div style={{padding:"0 3%"}}>
+          <input
+            {...getInputProps({ placeholder: "Type address" })}
+            style={{
+              font: "18px",
+              padding: "0 0.5em",
+              fontSize: "20px",
+              lineHeight: "3",
+              width:"100%",
+              borderRadius: "15px"
+            }}
+          />
 
-          <div>
+          <div style={{paddingTop:"3%", fontSize: "20px", 
+                borderRadius: "15px"}}>
             {loading ? <div>...loading</div> : null}
 
             {suggestions.map((suggestion) => {
               const style = {
                 backgroundColor: suggestion.active ? "#41b6e6" : "#fff",
+                padding: "0 0.5em",
+                lineHeight: "2"
               };
 
               return (

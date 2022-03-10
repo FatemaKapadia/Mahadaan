@@ -29,16 +29,21 @@ export default function App() {
 
   return (
     <div>
-      <header class="masthead">
-        <div class="container position-relative">
+      <header class="masthead" style={{height:"100%"}}>
+        <div
+          class="container position-relative"
+          style={{ paddingLeft: "0px", paddingRight: "0px" }}
+        >
           <div class="row justify-content-center">
-            <div class="col-xl-6 text-center text-white">
+            <div class="text-center text-white">
               {page === "landing" ? (
                 <Landing setCoordinates={enterCoordinates} />
               ) : null}
-              {page === "loading" ? <div height="100%">fetching results...</div> : null}
+              {page === "loading" ? (
+                <div style={{padding:"25% 0"}} height="100%">Fetching results...</div>
+              ) : null}
               {page === "results" ? (
-                <Results nearestCamps={nearestCamps} />
+                <Results nearestCamps={nearestCamps} setPage={setPage}/>
               ) : null}
             </div>
           </div>

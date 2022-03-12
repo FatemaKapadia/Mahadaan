@@ -60,7 +60,7 @@ export const camps = [
   },
   {
     address:
-      "Rotary Club of Pimpri, S AMbhaji Nagar, Pimpri Chinchwad, Pune, Maharashtra 411018",
+      "Rotary Club of Pimpri, Sambhaji Nagar, Pimpri Chinchwad, Pune, Maharashtra 411018",
     pinCode: "411018",
     number: "7666800739",
     startTime: "8:00 AM",
@@ -135,7 +135,7 @@ export const camps = [
       "Pathology Classroom, Ground Floor, Bharati Vidyapeeth Medical College, Dhankawadi, Pune, Maharashtra 411043",
     pinCode: "411043",
     number: "9405010103",
-    startTime: "11:00 AM",
+    startTime: "10:00 AM",
     endTime: "4:00 PM",
     clubs: ["Rotaract Club of Pune Cantonment"],
     lat: 18.4654546,
@@ -283,17 +283,6 @@ export const camps = [
     date: "12/03/2022",
   },
   {
-    address: "Bhate Vachnalay, Doha",
-    pinCode: "402109",
-    number: "9145268396",
-    startTime: "9:00 AM",
-    endTime: "3:00 PM",
-    clubs: ["Rotaract Club of Roha Central "],
-    lat: 18.437464,
-    lng: 73.117232,
-    date: "12/03/2022",
-  },
-  {
     address: "Srushti Society, GuruGaneshnagar, Kothrud, Pune 38",
     pinCode: "411038",
     number: "7588499053",
@@ -410,9 +399,9 @@ export const camps = [
   {
     address: "PMC- Haribhau Sane Parking Lot",
     pinCode: "411030",
-    number: "9405822061",
-    startTime: "11:00 AM",
-    endTime: "4:00 PM",
+    number: "7057033111",
+    startTime: "9:00 AM",
+    endTime: "3:00 PM",
     clubs: [
       "Rotaract Club of Unitech",
       "Rotaract Club of Modern College Ganeshkhind",

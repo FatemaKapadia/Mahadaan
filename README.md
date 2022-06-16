@@ -1,3 +1,3 @@
-# Google Places in React
-
-Video: https://youtu.be/uJYqQdnw8LE
+Project developed for the district wide blood donation camp organized by Rotaract Club of Pune Cantonment.
+Users can access the website at 
+to find their nearest blood donation centre.
